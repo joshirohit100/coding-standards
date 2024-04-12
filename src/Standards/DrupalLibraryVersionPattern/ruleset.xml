@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ruleset name="DrupalLibraryVersionPattern">
+    <description>Ruleset that includes sniffs for the library version in YML file.</description>
+
+    <!-- Only for the YML files -->
+    <arg name="extensions" value="yml"/>
+
+    <!-- Override Internal sniffs to ignore -->
+    <rule ref="Internal.NoCodeFound">
+        <!-- No PHP code in *.yml thus ignoring this for YML files -->
+        <exclude-pattern>*.yml</exclude-pattern>
+    </rule>
+
+</ruleset>

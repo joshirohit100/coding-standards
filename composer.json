@@ -1,0 +1,26 @@
+{
+  "name": "joshirohit100/rj-coding-standards",
+  "type": "phpcodesniffer-standard",
+  "description": "PHP_CodeSniffer rules (sniffs) for coding standards",
+  "keywords": [
+    "Drupal",
+    "phpcs",
+    "standards",
+    "static analysis"
+  ],
+  "authors": [
+    {
+      "name": "Rohit Joshi",
+      "role": "Maintainer"
+    }
+  ],
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "RohitJoshi\\CodingStandards\\": "src/Standards"
+    }
+  },
+  "minimum-stability": "dev"
+}
