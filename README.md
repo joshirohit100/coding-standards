@@ -1,0 +1,33 @@
+# Some custom PHP sniffs for Drupal / PHP Projects 
+Provide some custom PHP Sniffs for the Drupal / PHP based projects.
+
+## How to add this to project
+In project root composer.json file, add below entry under `repositories`
+section -
+
+````
+"type": "git",
+"url": "git@github.com:joshirohit100/rj-coding-standards.git"
+````
+Then run the composer require command
+```
+composer require joshirohit100/rj-coding-standards
+```
+
+## Sniffs
+### DrupalLibraryVersionPattern
+Provides a sniff to check the `version` key in the drupal *.libraries.yml files.
+Sample library definition
+```
+test.my_library:
+    version: 1.x
+    js:
+        somejsfilepath/jsfile.js
+```
+This will fail the sniff because library version is not proper
+like 1.0.0 (check for only number and dot in library version)
+
+To add this sniff in project, just add below in phpcs.xml file
+```
+<rule ref="DrupalLibraryVersionPattern"/>
+```
