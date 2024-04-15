@@ -31,3 +31,14 @@ To add this sniff in project, just add below in phpcs.xml file
 ```
 <rule ref="DrupalLibraryVersionPattern"/>
 ```
+
+### DrupalUpdateHookSequence
+Provides a sniff to check the order of update hooks in *.install file.
+
+Update hooks should be in decreasing sequence.
+This means, latest version should be on top.
+
+To add this sniff in project, just add below in phpcs.xml file
+```
+<rule ref="DrupalUpdateHookSequence"/>
+```

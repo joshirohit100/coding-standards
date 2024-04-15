@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<ruleset name="DrupalUpdateHookSequence">
+    <description>Ruleset that includes sniffs for the update hook sequence. Update hooks should be in decreasing sequence. This means, latest version should be on top.</description>
+</ruleset>
