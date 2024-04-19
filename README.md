@@ -42,3 +42,11 @@ To add this sniff in project, just add below in phpcs.xml file
 ```
 <rule ref="DrupalUpdateHookSequence"/>
 ```
+
+### DrupalHookUpdateNComment
+Provides a sniff to not allow "hook_update_N()" in update hooks comment in *.install file.
+
+To add this sniff in project, just add below in phpcs.xml file
+```
+<rule ref="DrupalHookUpdateNComment"/>
+```

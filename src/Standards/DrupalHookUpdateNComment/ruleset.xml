@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<ruleset name="DrupalHookUpdateNComment">
+    <description>Ruleset that includes sniffs for not using hook_update_N() comment.</description>
+
+    <!-- Only for the *.install files -->
+    <arg name="extensions" value="install"/>
+
+</ruleset>
