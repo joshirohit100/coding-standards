@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<ruleset name="DrupalHookInstallLast">
+    <description>Ruleset that includes sniffs to check for hook_install() should always be at bottom in file, after all update hooks.</description>
+
+    <!-- Only for the *.install files -->
+    <arg name="extensions" value="install"/>
+
+</ruleset>

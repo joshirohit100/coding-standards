@@ -50,3 +50,11 @@ To add this sniff in project, just add below in phpcs.xml file
 ```
 <rule ref="DrupalHookUpdateNComment"/>
 ```
+
+### DrupalHookInstallLast
+Provides a sniff to check for hook_install() should always be at bottom in file, after all update hooks.
+
+To add this sniff in project, just add below in phpcs.xml file
+```
+<rule ref="DrupalHookInstallLast"/>
+```
