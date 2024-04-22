@@ -1,5 +1,5 @@
 {
-  "name": "joshirohit100/rj-coding-standards",
+  "name": "joshirohit100/coding-standards",
   "type": "phpcodesniffer-standard",
   "description": "PHP_CodeSniffer rules (sniffs) for coding standards",
   "keywords": [

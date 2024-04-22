@@ -7,7 +7,7 @@ section -
 
 ````
 "type": "git",
-"url": "git@github.com:joshirohit100/rj-coding-standards.git"
+"url": "git@github.com:joshirohit100/coding-standards.git"
 ````
 Then run the composer require command
 ```
