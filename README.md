@@ -11,7 +11,7 @@ section -
 ````
 Then run the composer require command
 ```
-composer require joshirohit100/rj-coding-standards
+composer require joshirohit100/coding-standards
 ```
 
 ## Sniffs
